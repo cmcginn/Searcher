@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JobPostingRow" xml:space="preserve">
+    <value>&lt;html&gt;
+	&lt;body&gt;
+		&lt;p class="row" data-pid="4411995504"&gt; &lt;a href="http://ocala.craigslist.org/sof/4411995504.html" class="i"&gt;&lt;/a&gt; &lt;span class="star v" title="save this post in your favorites list"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  7&lt;/span&gt;  &lt;a href="http://ocala.craigslist.org/sof/4411995504.html"&gt; ASP.net C# MVC Web Developer Padawan&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Ocala, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;span class="maptag" data-pid="4411995504"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="SearchResultsDocument" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html class="nojs"&gt;&lt;head&gt;
+    &lt;title&gt;orlando software/QA/DBA/etc jobs classifieds &amp;quot; C#&amp;quot; - craigslist&lt;/title&gt;
+
+    &lt;meta name="description" content="orlando software/QA/DBA/etc jobs classifieds &amp;quot; C#&amp;quot; - craigslist"&gt;
+    &lt;link rel="alternate" type="application/rss+xml" href="http://orlando.craigslist.org/search/sof?query=%20C%23&amp;amp;s=0&amp;amp;format=rss" title="RSS feed for craigslist | software/QA/DBA/etc jobs &amp;quot; C#&amp;quot; in orlando "&gt;
+    &lt;meta name="viewport" content="initial-scale=1.0, user-scalable=1"&gt;
+    &lt;link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/cl.css?v=77c48cc89e15465ea0d48c1c69ebce00"&gt;
+    &lt;link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=c95646bf9b5502bbfb2b7a587b0e53e4"&gt;
+    &lt;link rel="prefetch" href="//www.craigslist.org/js/postings.min.js?v=ea4d7f2f674eef4bad85e7e917ec2059"&gt;
+    
+    &lt;link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/leaflet-stock.css?v=84d3c834332cbea762f0ab54db54c578"&gt;
+&lt;link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/MarkerCluster.css?v=b94c0e0f6bef79d2d992e3420553207b"&gt;
+&lt;link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/tocsmaps.css?v=3962f82c61ab2a0cc93caec696f2d870"&gt;
+&lt;!--[if IE]&gt;
+    &lt;link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/tocsmaps-ie.css?v=f1223c97cb8efdbf6ce2db4513315769"&gt;
+&lt;![endif]--&gt;
+    
+        &lt;script type="text/javascript"&gt;&lt;!--
+            var currencySymbol = "";
+var areaRegion = "FL";
+var zoomToPosting = null;
+var showInfoText = "show info";
+var subarea = "";
+var imageHost = "http://images.craigslist.org";
+var areaId = "39";
+var lessInfoText = "less info";
+var showMapTabs = 1;
+var areaCountry = "US";
+var starHint = "save this post in your favorites list";
+var expFaves = "";
+var pID = null;
+var catAbb = "sof";
+var catType = "jjj";
+
+        --&gt;&lt;/script&gt;
+    
+    &lt;!--[if lt IE 9]&gt;
+&lt;script  src="//www.craigslist.org/js/html5shiv.min.js?v=42e8031bc7ca9d67a48f4a5feff7bf29" type="text/javascript" &gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;!--[if lte IE 7]&gt;
+&lt;script  src="//www.craigslist.org/js/json2.min.js?v=178d4ad319e0e0b4a451b15e49b71bec" type="text/javascript" &gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;/head&gt;
+
+&lt;body class="toc search"&gt;
+    &lt;script type="text/javascript"&gt;&lt;!--
+    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+    var pagetype, pagemode;
+    (function(){
+        var h = document.documentElement;
+        h.className = h.className.replace('nojs', 'js');
+        var b = document.body;
+        var bodyClassList = b.className.split(/\s+/);;
+        pagetype = bodyClassList[0];
+        var fmt = C('cl_fmt');
+        if (fmt) {
+            pagemode = fmt;
+            bodyClassList.push(fmt);
+        } else if (screen.width &lt;= 480) {
+            pagemode = 'mobile';
+            bodyClassList.push(pagemode);
+        }
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width &gt; 1000) { bodyClassList.push('w1024'); }
+        if (typeof catType !== 'undefined') {
+            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
+            for (var i = 0, len = bodyClassList.length; i &lt; len; i++){
+                if (bodyClassList[i] === 'map') { mode = undefined; }
+            }
+            if (mode) { bodyClassList.push(mode); }
+        }
+        b.className = bodyClassList.join(' ');
+    }());
+--&gt;&lt;/script&gt;
+
+
+    &lt;article id="pagecontainer"&gt;
+
+        &lt;header class="bchead"&gt;
+	&lt;div class="contents closed"&gt;
+		&lt;div class="breadbox"&gt;
+			&lt;div class="mi post"&gt;&lt;em&gt;[ &lt;/em&gt;&lt;a href="https://post.craigslist.org/c/orl?lang=en"&gt;post&lt;/a&gt;&lt;em&gt; ]&lt;/em&gt;&lt;/div&gt;
+			&lt;div class="mi account"&gt;&lt;em&gt;[ &lt;/em&gt;&lt;a href="https://accounts.craigslist.org"&gt;account&lt;/a&gt;&lt;em&gt; ]&lt;/em&gt;&lt;/div&gt;
+			&lt;div class="mi fav"&gt;&lt;div id="favorites"&gt;
+    &lt;a href="#" class="favlink"&gt;&lt;span class="n"&gt;0&lt;/span&gt; favorites&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;
+			&lt;span class="crumb"&gt;&lt;a href="//www.craigslist.org/about/sites"&gt;CL&lt;/a&gt; &amp;gt;&lt;/span&gt;&lt;span class="crumb"&gt;&lt;a href="/"&gt;orlando&lt;/a&gt; &amp;gt;&lt;/span&gt;&lt;span class="crumb"&gt;&lt;a href="/jjj/"&gt;jobs&lt;/a&gt; &amp;gt;&lt;/span&gt;&lt;span class="crumb"&gt;&lt;a href="/sof/"&gt;software/QA/DBA/etc jobs&lt;/a&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="dropdown"&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/div&gt;
+        
+	&lt;/div&gt;
+&lt;/header&gt;
+
+        &lt;blockquote class="searchform"&gt;
+            
+        &lt;script type="text/javascript"&gt;&lt;!--
+            var catAbb = "sof";
+
+        --&gt;&lt;/script&gt;
+    
+&lt;form action="/search/sof" id="searchform" method="get" accept-charset="utf-8"&gt;
+	&lt;input type="checkbox" name="useMap" id="useMap" style="display:none;" value="1"&gt;
+	&lt;input id="zoomtoposting" type="hidden" name="zoomToPosting" value=""&gt;
+
+    &lt;fieldset id="searchfieldset"&gt;
+    &lt;legend id="searchlegend"&gt;&lt;select id="catAbb" name="catAbb"&gt;
+
+                &lt;option value="ccc"&gt;all community&lt;/option&gt;
+
+                &lt;option value="eee"&gt;all event&lt;/option&gt;
+
+                &lt;option value="sss"&gt;all for sale / wanted&lt;/option&gt;
+
+                &lt;option value="ggg"&gt;all gigs&lt;/option&gt;
+
+                &lt;option value="hhh"&gt;all housing&lt;/option&gt;
+
+                &lt;option value="jjj"&gt;all jobs&lt;/option&gt;
+&lt;option disabled value=""&gt;--&lt;/option&gt;
+&lt;option value="ofc"&gt; admin/office jobs&lt;/option&gt;
+&lt;option value="bus"&gt; business jobs&lt;/option&gt;
+&lt;option value="csr"&gt; customer service jobs&lt;/option&gt;
+&lt;option value="edu"&gt; education jobs&lt;/option&gt;
+&lt;option value="egr"&gt; engineering jobs&lt;/option&gt;
+&lt;option value="etc"&gt; etcetera jobs&lt;/option&gt;
+&lt;option value="acc"&gt; finance jobs&lt;/option&gt;
+&lt;option value="fbh"&gt; food/bev/hosp jobs&lt;/option&gt;
+&lt;option value="lab"&gt; general labor jobs&lt;/option&gt;
+&lt;option value="gov"&gt; government jobs&lt;/option&gt;
+&lt;option value="hea"&gt; healthcare jobs&lt;/option&gt;
+&lt;option value="hum"&gt; human resource jobs&lt;/option&gt;
+&lt;option value="eng"&gt; internet engineering jobs&lt;/option&gt;
+&lt;option value="lgl"&gt; legal jobs&lt;/option&gt;
+&lt;option value="mnu"&gt; manufacturing jobs&lt;/option&gt;
+&lt;option value="mar"&gt; marketing jobs&lt;/option&gt;
+&lt;option value="med"&gt; media jobs&lt;/option&gt;
+&lt;option value="npo"&gt; nonprofit jobs&lt;/option&gt;
+&lt;option value="rej"&gt; real estate jobs&lt;/option&gt;
+&lt;option value="rfh"&gt; retail/food/hospitality jobs&lt;/option&gt;
+&lt;option value="ret"&gt; retail/wholesale jobs&lt;/option&gt;
+&lt;option value="sls"&gt; sales jobs&lt;/option&gt;
+&lt;option value="spa"&gt; salon/spa/fitness&lt;/option&gt;
+&lt;option value="sci"&gt; science jobs&lt;/option&gt;
+&lt;option value="sec"&gt; security jobs&lt;/option&gt;
+&lt;option value="trd"&gt; skilled trades jobs&lt;/option&gt;
+&lt;option value="sof" selected&gt; software jobs&lt;/option&gt;
+&lt;option value="sad"&gt; systems/networking jobs&lt;/option&gt;
+&lt;option value="tch"&gt; tech support jobs&lt;/option&gt;
+&lt;option value="trp"&gt; transport jobs&lt;/option&gt;
+&lt;option value="tfr"&gt; tv video radio jobs&lt;/option&gt;
+&lt;option value="web"&gt; web design jobs&lt;/option&gt;
+&lt;option value="wri"&gt; writing jobs&lt;/option&gt;
+&lt;option disabled value=""&gt;--&lt;/option&gt;
+
+                &lt;option value="ppp"&gt;all personals&lt;/option&gt;
+
+                &lt;option value="res"&gt;all resume&lt;/option&gt;
+
+                &lt;option value="bbb"&gt;all services offered&lt;/option&gt;
+&lt;/select&gt;&lt;/legend&gt;
+	&lt;div class="experimentalFeature"&gt;
+    	     
+    	&lt;/div&gt;
+	&lt;div id="searchtable"&gt;
+		&lt;span class="searchgroup"&gt;
+			&lt;span&gt;
+				&lt;input id="query" name="query" data-suggest="search" size="24" maxlength="180" value=" C#" placeholder="search" autocorrect="off" autocapitalize="off"&gt;
+			&lt;/span&gt;
+			&lt;input id="searchbtn" type="submit" value="search"&gt;
+		&lt;/span&gt;
+
+		
+
+		&lt;span class="searchgroup"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="is_telecommuting"
+			id="tc" value="1"&gt;telecommute
+	&lt;/label&gt;
+&lt;/span&gt;
+&lt;span class="searchgroup"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="is_contract"
+			id="ct" value="1"&gt;contract
+	&lt;/label&gt;
+&lt;/span&gt;
+&lt;span class="searchgroup"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="is_internship"
+			id="it" value="1"&gt;internship
+	&lt;/label&gt;
+&lt;/span&gt;
+&lt;span class="searchgroup"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="is_parttime"
+			id="pt" value="1"&gt;part-time
+	&lt;/label&gt;
+&lt;/span&gt;
+&lt;span class="searchgroup"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="is_nonprofit"
+			id="np" value="1"&gt;non-profit
+	&lt;/label&gt;
+&lt;/span&gt;
+
+		
+		&lt;span class="searchgroup"&gt;
+			&lt;label&gt;
+				&lt;input type="checkbox" name="hasPic" value="1" &gt;&lt;span class="haspic"&gt;pic&lt;/span&gt;
+			&lt;/label&gt;
+			&lt;label&gt;
+					&lt;input type="checkbox" name="srchType" value="T"
+					title="search only posting titles"&gt;title
+			&lt;/label&gt;
+		&lt;/span&gt;
+
+		&lt;span class="searchgroup"&gt;&lt;span class="savesearch"&gt;[&lt;a href="https://accounts.craigslist.org/login?rt=L&amp;amp;rp=%2Fsavesearch%2Fsave%3FURL%3Dhttp%253A%252F%252Forlando%252Ecraigslist%252Eorg%252Fsearch%252Fsof%253Fquery%253D%252520C%252523%2526s%253D0" title="save this search"&gt;save&lt;/a&gt; / &lt;a href="https://accounts.craigslist.org/login?rt=L&amp;rp=/?show_tab=searches" title="view my searches"&gt;view&lt;/a&gt; searches]&lt;/span&gt;&lt;/span&gt;
+
+	&lt;/div&gt;
+    &lt;/fieldset&gt;
+	&lt;input id="excats" type="hidden" name="excats" value=""&gt;
+&lt;/form&gt;
+        &lt;/blockquote&gt;
+
+        
+
+        &lt;section class="body"&gt;
+            &lt;section class="favlistinfo"&gt;
+                
+                
+            &lt;/section&gt;
+
+            &lt;div id="toc_rows"&gt;
+                &lt;div class="toc_legend"&gt;
+                    &lt;div class="center"&gt;
+                        &lt;span class="tocview buttongroup js-only"&gt;&lt;a href="#list" title="show results in a list" class="mode button" data-view="list" id="listview"&gt;list&lt;/a&gt;&lt;a href="#pic" title="show results in a list with thumbnail pictures" class="mode button" data-view="pic" id="picview"&gt;thumb&lt;/a&gt;&lt;a href="#grid" title="show results side-by-side with larger pictures" class="mode button" data-view="grid" id="gridview"&gt;gallery&lt;/a&gt;&lt;a href="#map" title="show results on a map" class="mapview mode button" data-view="map" id="mapview"&gt;map&lt;/a&gt;&lt;/span&gt;
+
+&lt;span class="paginator buttongroup"&gt;
+&lt;span class="resulttotal"&gt;displaying &lt;span class='displaycount'&gt;...&lt;/span&gt; of 0 postings&lt;/span&gt;&lt;span class="buttons"&gt;&lt;span class="button first" title="first page"&gt; &amp;lt;&amp;lt; &lt;/span&gt;&lt;span class="button prev" title="previous page"&gt; &amp;lt; prev &lt;/span&gt;&lt;span class="button pagenum"&gt;1 - 40 &lt;/span&gt;&lt;span class="button next" title="next page"&gt; next &amp;gt; &lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;span class="tocsort buttongroup"&gt;&lt;span class="button sel"&gt;newest&lt;/span&gt;&lt;a class="button" title="show most relevant matches first" href="/search/sof?sort=rel&amp;query=%20C%23"&gt;relevant&lt;/a&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class="content"&gt;
+                    
+                     &lt;p class="row" data-pid="4439851872"&gt; &lt;a href="/sof/4439851872.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 25&lt;/span&gt;  &lt;a href="/sof/4439851872.html"&gt;Sr Full Stack Web Engineer- C# - Silicon Valley, CA&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4435158443"&gt; &lt;a href="/sof/4435158443.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 22&lt;/span&gt;  &lt;a href="/sof/4435158443.html"&gt;Software Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Sanford, FL )&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4428650312"&gt; &lt;a href="/sof/4428650312.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 18&lt;/span&gt;  &lt;a href="/sof/4428650312.html"&gt;.NET Software Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Orlando)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4427385760"&gt; &lt;a href="/sof/4427385760.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 17&lt;/span&gt;  &lt;a href="/sof/4427385760.html"&gt;Sr Full Stack Web Engineer- C# - Silicon Valley, CA&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4424305308"&gt; &lt;a href="/sof/4424305308.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 15&lt;/span&gt;  &lt;a href="/sof/4424305308.html"&gt;Sr Full Stack Web Engineer- C# - Silicon Valley, CA&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4417003249"&gt; &lt;a href="/sof/4417003249.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 10&lt;/span&gt;  &lt;a href="/sof/4417003249.html"&gt;Sr Full Stack Web Engineer- C# - Silicon Valley, CA&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt;&lt;h4 class="ban nearby"&gt;&lt;span class="bantext"&gt;Few LOCAL results found. Here are some from NEARBY areas&lt;/span&gt;&lt;/h4&gt; &lt;p class="row" data-pid="4440020216"&gt; &lt;a href="http://daytona.craigslist.org/sof/4440020216.html" class="i" data-id="0:01212_cf12dxXbsi"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 25&lt;/span&gt;  &lt;a href="http://daytona.craigslist.org/sof/4440020216.html"&gt;C# Solution Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Deland, Fl)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; pic&amp;nbsp;&lt;span class="maptag" data-pid="4440020216"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4439882248"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4439882248.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 25&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4439882248.html"&gt;Full Stack Web Engineer (New Grad) - Top Game Dev Startup -SF Bay Area&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4432514158"&gt; &lt;a href="http://daytona.craigslist.org/sof/4432514158.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 23&lt;/span&gt;  &lt;a href="http://daytona.craigslist.org/sof/4432514158.html"&gt; Game Design coders wanted&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Daytona Beach)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4432730645"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4432730645.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 21&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4432730645.html"&gt;Jr. to Sr. Level .Net Developement Openings URGENT!&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4429139880"&gt; &lt;a href="http://spacecoast.craigslist.org/sof/4429139880.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 18&lt;/span&gt;  &lt;a href="http://spacecoast.craigslist.org/sof/4429139880.html"&gt;Remote software developer for Xerox&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (melbourne fl)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4427861144"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4427861144.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 17&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4427861144.html"&gt;Software Engineer I - .Net Development / Telecom - 0808634&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (st. petersburg)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4427377431"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4427377431.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 17&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4427377431.html"&gt;Full Stack Web Engineer (New Grad) - Top Game Dev Startup -SF Bay Area&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4427014806"&gt; &lt;a href="http://daytona.craigslist.org/sof/4427014806.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 17&lt;/span&gt;  &lt;a href="http://daytona.craigslist.org/sof/4427014806.html"&gt;IMMEDIATE START: ENTRY LEVEL &amp;amp; JR. .NET DEVELOPERS &lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Alpharetta)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;span class="maptag" data-pid="4427014806"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4425705863"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4425705863.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 16&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4425705863.html"&gt;Entry Level Programmer / Tech Support Position&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Clearwater)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4424287523"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4424287523.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 15&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4424287523.html"&gt;Full Stack Web Engineer (New Grad) - Top Game Dev Startup -SF Bay Area&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4424264257"&gt; &lt;a href="http://lakeland.craigslist.org/sof/4424264257.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 15&lt;/span&gt;  &lt;a href="http://lakeland.craigslist.org/sof/4424264257.html"&gt;.Net Developer W/ SQL Skills&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (West Central Florida)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4418305273"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4418305273.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 11&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4418305273.html"&gt;Full Time C# Dev Wanted&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa/E Hillsborough)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4416976523"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4416976523.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 10&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4416976523.html"&gt;Full Stack Web Engineer (New Grad) - Top Game Dev Startup -SF Bay Area&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4416642602"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4416642602.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 10&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4416642602.html"&gt;Software Engineer, I - II&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;span class="maptag" data-pid="4416642602"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4416548949"&gt; &lt;a href="http://lakeland.craigslist.org/sof/4416548949.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 10&lt;/span&gt;  &lt;a href="http://lakeland.craigslist.org/sof/4416548949.html"&gt;C# Developer, Commercial software Firm&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (West Central Florida)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4416394003"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4416394003.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr 10&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4416394003.html"&gt;Senior Software Engineer -- C# / .Net / Digital Commerce - 0808130&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (st. petersburg)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4415700574"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4415700574.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  9&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4415700574.html"&gt;C# MVC Javascript Web Devloper&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4414595893"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4414595893.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  9&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4414595893.html"&gt;Sr Software QA Engineer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (St. Petersburg)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4414491360"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4414491360.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  9&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4414491360.html"&gt;Full Time C# Dev Wanted&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa/E Hillsborough)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4411995504"&gt; &lt;a href="http://ocala.craigslist.org/sof/4411995504.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  7&lt;/span&gt;  &lt;a href="http://ocala.craigslist.org/sof/4411995504.html"&gt; ASP.net C# MVC Web Developer Padawan&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Ocala, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;span class="maptag" data-pid="4411995504"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4407579483"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4407579483.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  4&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4407579483.html"&gt;Software Automation Engineer II - 0808592&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (St. Petersburg, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; img&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4407489251"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4407489251.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  4&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4407489251.html"&gt;Java Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4407339106"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4407339106.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  4&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4407339106.html"&gt;Senior Programmer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;span class="maptag" data-pid="4407339106"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4405551496"&gt; &lt;a href="http://tampa.craigslist.org/pnl/sof/4405551496.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  3&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/pnl/sof/4405551496.html"&gt;C# Developer Needed - WinForms, Web Services, ASP.Net&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (West Central Ave, Saint Petersburg)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;span class="maptag" data-pid="4405551496"&gt;map&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4403578068"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4403578068.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  2&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4403578068.html"&gt;ASP.Net Web Developer (FT)&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Tampa, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4403432579"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4403432579.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  2&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4403432579.html"&gt;.Net and SQL Developer Needed&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4360910268"&gt; &lt;a href="http://spacecoast.craigslist.org/sof/4360910268.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Apr  1&lt;/span&gt;  &lt;a href="http://spacecoast.craigslist.org/sof/4360910268.html"&gt;Application Architect&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Melbourne)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4401409990"&gt; &lt;a href="http://tampa.craigslist.org/hil/sof/4401409990.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 31&lt;/span&gt;  &lt;a href="http://tampa.craigslist.org/hil/sof/4401409990.html"&gt;C# .NET Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt;  &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4392739719"&gt; &lt;a href="http://spacecoast.craigslist.org/sof/4392739719.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 26&lt;/span&gt;  &lt;a href="http://spacecoast.craigslist.org/sof/4392739719.html"&gt;Web Application Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Palm Bay, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4390200341"&gt; &lt;a href="http://lakeland.craigslist.org/sof/4390200341.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 24&lt;/span&gt;  &lt;a href="http://lakeland.craigslist.org/sof/4390200341.html"&gt;Software Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Lakeland, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4346411972"&gt; &lt;a href="http://daytona.craigslist.org/sof/4346411972.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 22&lt;/span&gt;  &lt;a href="http://daytona.craigslist.org/sof/4346411972.html"&gt;Sr C++ Graphics Software Engineer, Looking to fill ASAP&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Orlando, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4342194942"&gt; &lt;a href="http://daytona.craigslist.org/sof/4342194942.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 18&lt;/span&gt;  &lt;a href="http://daytona.craigslist.org/sof/4342194942.html"&gt;IS Programmer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Deland, FL)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4379342518"&gt; &lt;a href="http://lakeland.craigslist.org/sof/4379342518.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 17&lt;/span&gt;  &lt;a href="http://lakeland.craigslist.org/sof/4379342518.html"&gt;C# Developer&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (Lakeland)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt; &lt;p class="row" data-pid="4372929707"&gt; &lt;a href="http://lakeland.craigslist.org/sof/4372929707.html" class="i"&gt;&lt;/a&gt; &lt;span class="star"&gt;&lt;/span&gt; &lt;span class="pl"&gt; &lt;span class="date"&gt;Mar 13&lt;/span&gt;  &lt;a href="http://lakeland.craigslist.org/sof/4372929707.html"&gt;SharePoint Developer, full time, Healthcare&lt;/a&gt; &lt;/span&gt; &lt;span class="l2"&gt;   &lt;span class="pnr"&gt; &lt;small&gt; (West Central Florida)&lt;/small&gt; &lt;span class="px"&gt; &lt;span class="p"&gt; &lt;/span&gt;&lt;/span&gt; &lt;/span&gt;  &lt;/span&gt; &lt;/p&gt;
+                    &lt;div id="mapcontainer" data-arealat="28.538099" data-arealon="-81.379402"&gt;
+	&lt;div id="noresult_overlay"&gt;&lt;/div&gt;
+		&lt;div id="noresult_text"&gt;
+			&lt;span class="message"&gt;No mappable items found&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;div id="map" class="loading"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;span class="timing"&gt;&lt;/span&gt;
+                    
+                &lt;/div&gt;
+
+                &lt;div class="toc_legend bottom"&gt;
+                    &lt;div class="center"&gt;
+                        &lt;span class="paginator buttongroup"&gt;
+&lt;span class="resulttotal"&gt;displaying &lt;span class='displaycount'&gt;...&lt;/span&gt; of 0 postings&lt;/span&gt;&lt;span class="buttons"&gt;&lt;span class="button first" title="first page"&gt; &amp;lt;&amp;lt; &lt;/span&gt;&lt;span class="button prev" title="previous page"&gt; &amp;lt; prev &lt;/span&gt;&lt;span class="button pagenum"&gt;1 - 40 &lt;/span&gt;&lt;span class="button next" title="next page"&gt; next &amp;gt; &lt;/span&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;span class="tocsort buttongroup"&gt;&lt;a class="backtotop button" href="#pagecontainer"&gt;^ back to top&lt;/a&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;div id="floater"&gt;
+                &lt;img class="loading" src="//www.craigslist.org/images/animated-spinny.gif" alt=""&gt;
+                &lt;img class="payload" src="//www.craigslist.org/images/animated-spinny.gif" alt=""&gt;
+            &lt;/div&gt;
+
+            &lt;section class="blurbs"&gt;
+                
+            &lt;/section&gt;
+        &lt;/section&gt;
+        
+        &lt;footer&gt;
+	
+			&lt;span class="rss"&gt;
+				&lt;a class="l" href="http://orlando.craigslist.org/search/sof?query=%20C%23&amp;amp;s=0&amp;amp;format=rss"&gt;RSS&lt;/a&gt;
+				&lt;a href="http://www.craigslist.org/about/rss"&gt;(?)&lt;/a&gt;&lt;br&gt;
+			&lt;/span&gt;
+			
+	&lt;ul class="clfooter"&gt;
+		&lt;li&gt;&amp;copy; 2014 &lt;span class="desktop"&gt;craigslist&lt;/span&gt;&lt;span class="mobile"&gt;CL&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="//www.craigslist.org/about/help/"&gt;help&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="//www.craigslist.org/about/scams"&gt;safety&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="desktop"&gt;&lt;a href="//www.craigslist.org/about/privacy.policy"&gt;privacy&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="desktop"&gt;&lt;a href="https://forums.craigslist.org/?forumID=8"&gt;feedback&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="desktop"&gt;&lt;a href="//www.craigslist.org/about/craigslist_is_hiring"&gt;cl jobs&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="//www.craigslist.org/about/terms.of.use"&gt;terms&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="//www.craigslist.org/about/"&gt;about&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="fsel desktop" data-mode="mobile"&gt;&lt;a href="#"&gt;mobile&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="fsel mobile" data-mode="regular"&gt;&lt;a href="#"&gt;desktop&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/footer&gt;
+    &lt;/article&gt;
+    &lt;script  src="//www.craigslist.org/js/general-concat.min.js?v=f8768c5167538c339d4bac7e77649a2d" type="text/javascript" &gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;&lt;!--
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=df3e26b8dc7dec459e3415594e32b1a3';
+        document.body.insertBefore(iframe, null);
+    --&gt;&lt;/script&gt;
+    &lt;script type="text/template" id="clustertemplate"&gt;
+    &lt;li class="posting {visited}" data-id="{PostingID}"&gt;
+        &lt;span class="{hasPrice}price"&gt;{currencySymbol}{Ask}&lt;/span&gt;
+        &lt;span class="bedrooms"&gt;{BedroomsContent}&lt;/span&gt;
+        &lt;span class="postingtitle"&gt;&lt;a&gt;{PostingTitle}&lt;/a&gt;&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/script&gt;
+&lt;script type="text/template" id="postingtemplate"&gt;
+    &lt;div class="viewcontainer pics loading"&gt;
+        &lt;div class="backtolist"&gt;
+            &lt;button class="back"&gt;&amp;lt;&lt;/button&gt; back to posting list
+        &lt;/div&gt;
+        &lt;div class="title"&gt;
+            &lt;span class="star" data-pid="{PostingID}"&gt;&lt;/span&gt;
+            &lt;span class="postingtitle"&gt;&lt;a href="{PostingURL}" target="_blank"&gt;{PostingTitle}&lt;/a&gt;&lt;/span&gt;
+            &lt;div&gt;
+                &lt;span class="{hasPrice}price"&gt;{currencySymbol}{Ask}&lt;/span&gt;
+                &lt;span class="bedrooms"&gt;{BedroomsContent}&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr style="clear:both"&gt;
+        &lt;div class="picscontainer"&gt;
+            &lt;div class="slidernav"&gt;
+                &lt;button class="back" disabled="disabled"&gt;&amp;lt;&lt;/button&gt;&lt;span class="sliderinfo"&gt;&lt;/span&gt;&lt;button class="forward"&gt;&amp;gt;&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="swipe"&gt;
+                &lt;div class="swipe-wrap"&gt;
+                    &lt;img class="loading" src="//www.craigslist.org/images/animated-spinny.gif" alt=""&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="infocontainer"&gt;&lt;/div&gt;
+        &lt;hr style="clear:both"&gt;
+        &lt;abbr class="date timeago" title="{isoPostedDate}"&gt;{humanPostedDate}&lt;/abbr&gt;
+        &lt;a class="viewpostinglink" href="{PostingURL}" target="_blank"&gt;view posting&lt;/a&gt;
+        &lt;div class="contenttoggle"&gt;
+            &lt;a class="moreinfo"&gt;more info&lt;/a&gt;
+            &lt;a class="showpics"&gt;show images&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/script&gt;
+&lt;script type="text/template" id="popuptemplate"&gt;
+    &lt;div id="mapbubble" class="posting"&gt;
+        &lt;ul id="clusterbubble"&gt;&lt;/ul&gt;
+        &lt;div id="postbubble"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/script&gt;
+&lt;script  src="//www.craigslist.org/js/leaflet-concat.min.js?v=9f3f59abf2884aaaf2afca0d401e3b2a" type="text/javascript" &gt;&lt;/script&gt;
+    &lt;script  src="//www.craigslist.org/js/tocs-concat.min.js?v=5c21f1a79b0cde9d43fa35fce3d3ac22" type="text/javascript" &gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>
