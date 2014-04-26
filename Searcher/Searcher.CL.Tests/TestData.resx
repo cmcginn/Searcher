@@ -124,6 +124,9 @@
 	&lt;/body&gt;
 &lt;/html&gt;</value>
   </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value />
+  </data>
   <data name="SearchResultsDocument" xml:space="preserve">
     <value>&lt;!DOCTYPE html&gt;
 &lt;html class="nojs"&gt;&lt;head&gt;
@@ -480,5 +483,9 @@ var catType = "jjj";
     &lt;script  src="//www.craigslist.org/js/tocs-concat.min.js?v=5c21f1a79b0cde9d43fa35fce3d3ac22" type="text/javascript" &gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SearchUrls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clCities.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
 </root>

@@ -72,6 +72,15 @@ namespace Searcher.CL.Tests {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string SearchResults {
+            get {
+                return ResourceManager.GetString("SearchResults", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
         ///&lt;html class=&quot;nojs&quot;&gt;&lt;head&gt;
         ///    &lt;title&gt;orlando software/QA/DBA/etc jobs classifieds &amp;quot; C#&amp;quot; - craigslist&lt;/title&gt;
@@ -83,6 +92,31 @@ namespace Searcher.CL.Tests {
         internal static string SearchResultsDocument {
             get {
                 return ResourceManager.GetString("SearchResultsDocument", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to http://bismarck.craigslist.org
+        ///http://springfieldil.craigslist.org
+        ///http://masoncity.craigslist.org
+        ///http://sd.craigslist.org
+        ///http://sanantonio.craigslist.org
+        ///http://staugustine.craigslist.org
+        ///http://elpaso.craigslist.org
+        ///http://pittsburgh.craigslist.org
+        ///http://cincinnati.craigslist.org
+        ///http://desmoines.craigslist.org
+        ///http://butte.craigslist.org
+        ///http://helena.craigslist.org
+        ///http://onslow.craigslist.org
+        ///http://keys.craigslist.org
+        ///http://missoula.craigslist.org
+        ///http://kalispell.craigslist.org
+        ///ht [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SearchUrls {
+            get {
+                return ResourceManager.GetString("SearchUrls", resourceCulture);
             }
         }
     }
