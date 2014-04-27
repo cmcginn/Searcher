@@ -18,5 +18,7 @@ namespace Searcher.Core
         public string SearchResultSourceUriLinkSelector { get; set; }
 
         public string SearchResultsParentNodeXPathSelector { get; set; }
+
+        public string SearchQueryFormatExpression { get; set; }
     }
 }

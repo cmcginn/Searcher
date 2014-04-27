@@ -7,14 +7,25 @@ using HtmlAgilityPack;
 
 namespace Searcher.Core
 {
-    public abstract class HtmlCollectorStrategyBase : ICollectorStrategy
+    public class HtmlCollectorStrategyBase : ICollectorStrategy
     {
+        private List<String> _searchUrls;
         public List<string> SearchBaseUrls { get; set; }
-        public List<string> SearchUrls { get; private set; }
+        public List<string> SearchUrls
+        {
+            get { return _searchUrls ?? (_searchUrls = CollectSearchQueries()); }
+        }
         public List<string> SearchTerms { get; set; }
         public Dictionary<string, int> ScoredKeywords { get; set; }
         public List<SearchResult> SearchResults { get; private set; }
-        public abstract List<string> CollectSearchQueries();
+
+   
+        public List<string> CollectSearchQueries()
+        {
+            var result = new List<string>();
+            SearchBaseUrls.ToList().ForEach(x => SearchTerms.ForEach(k => result.Add(String.Format(Searcher.SearcherConfiguration.SearchQueryFormatExpression, x, System.Web.HttpUtility.UrlEncode(k)))));
+            return result;
+        }
         public SearcherBase Searcher { get; set; }
         public void CollectSearches()
         {
@@ -25,7 +36,8 @@ namespace Searcher.Core
             {
                 var content = HtmlDocumentCollector.GetDocument(x).Result;
                 var doc = HtmlDocumentCollector.GetHtmlDocument(content).Result;
-                var nodes = Searcher.GetSearchResultNodes(doc.DocumentNode).Result;
+                Searcher.DocumentNode = doc.DocumentNode;
+                var nodes = Searcher.GetSearchResultNodes().Result;
                 nodes.ForEach(node =>
                 {
                     var item = Searcher.GetSearchResult(node).Result;

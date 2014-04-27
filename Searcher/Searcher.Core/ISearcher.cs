@@ -12,6 +12,7 @@ namespace Searcher.Core
         string GetSearchResultKey(T item);
         string GetSearchResultLocationName(T item);
 
+        T DocumentNode { get; set; }
         string GetSearchResultLocationStateProvince(T item);
 
         string GetSearchResultCityName(T item);
@@ -22,6 +23,6 @@ namespace Searcher.Core
 
         Task<SearchResult> GetSearchResult(T item);
 
-        Task<List<T>> GetSearchResultNodes(T document);
+        Task<List<T>> GetSearchResultNodes();
     }
 }

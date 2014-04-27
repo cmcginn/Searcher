@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searcher.SO", "Searcher.SO\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searcher.SO.Tests", "Searcher.SO.Tests\Searcher.SO.Tests.csproj", "{354A6F5C-8079-41BB-80B0-E01D365DED04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searcher.SystemTests", "Searcher.SystemTests\Searcher.SystemTests.csproj", "{FF18A198-D948-4009-A290-F0D9BB1F5C5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +35,11 @@ Global
 		{7D1FC9E1-0884-419F-9AEB-6630B3A93842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D1FC9E1-0884-419F-9AEB-6630B3A93842}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EF85DE2B-9BEB-4FF9-8577-D54B7ED3BD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF85DE2B-9BEB-4FF9-8577-D54B7ED3BD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF85DE2B-9BEB-4FF9-8577-D54B7ED3BD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF85DE2B-9BEB-4FF9-8577-D54B7ED3BD19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6F4533D-1331-421C-9CC7-DF4D97A8391C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F4533D-1331-421C-9CC7-DF4D97A8391C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F4533D-1331-421C-9CC7-DF4D97A8391C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F4533D-1331-421C-9CC7-DF4D97A8391C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{741A9A96-2CEF-4DCF-8D47-5DB997E90E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,6 +48,10 @@ Global
 		{354A6F5C-8079-41BB-80B0-E01D365DED04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{354A6F5C-8079-41BB-80B0-E01D365DED04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{354A6F5C-8079-41BB-80B0-E01D365DED04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF18A198-D948-4009-A290-F0D9BB1F5C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF18A198-D948-4009-A290-F0D9BB1F5C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF18A198-D948-4009-A290-F0D9BB1F5C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF18A198-D948-4009-A290-F0D9BB1F5C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +59,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C6F4533D-1331-421C-9CC7-DF4D97A8391C} = {A378559D-DC50-4298-925F-44C1EBC4507F}
 		{354A6F5C-8079-41BB-80B0-E01D365DED04} = {A378559D-DC50-4298-925F-44C1EBC4507F}
+		{FF18A198-D948-4009-A290-F0D9BB1F5C5A} = {A378559D-DC50-4298-925F-44C1EBC4507F}
 	EndGlobalSection
 EndGlobal

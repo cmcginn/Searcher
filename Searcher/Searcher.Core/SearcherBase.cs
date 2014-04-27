@@ -22,6 +22,7 @@ namespace Searcher.Core
         }
 
         public abstract string GetSearchResultLocationName(HtmlNode item);
+        public HtmlNode DocumentNode { get; set; }
 
         public virtual string GetSearchResultLocationStateProvince(HtmlNode item)
         {
@@ -111,9 +112,12 @@ namespace Searcher.Core
             return result;
         }
 
-        public virtual async Task<List<HtmlNode>> GetSearchResultNodes(HtmlNode document)
+        public virtual async Task<List<HtmlNode>> GetSearchResultNodes()
         {
-            var result = document.SelectNodes(SearcherConfiguration.SearchResultsParentNodeXPathSelector).ToList();
+            var result = new List<HtmlNode>();
+            var nodes = DocumentNode.SelectNodes(SearcherConfiguration.SearchResultsParentNodeXPathSelector);
+            if (nodes != null)
+                result = nodes.ToList();
             return result;
         }
     }

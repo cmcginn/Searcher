@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6F4533D-1331-421C-9CC7-DF4D97A8391C}</ProjectGuid>
+    <ProjectGuid>{FF18A198-D948-4009-A290-F0D9BB1F5C5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Searcher.CL.Tests</RootNamespace>
-    <AssemblyName>Searcher.CL.Tests</AssemblyName>
+    <RootNamespace>Searcher.SystemTests</RootNamespace>
+    <AssemblyName>Searcher.SystemTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,7 +48,8 @@
     <Reference Include="ScrapySharp">
       <HintPath>..\packages\ScrapySharp.2.2.63\lib\net40\ScrapySharp.dll</HintPath>
     </Reference>
-    <Reference Include="ScrapySharp.Core">
+    <Reference Include="ScrapySharp.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\ScrapySharp.2.2.63\lib\net40\ScrapySharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -72,14 +73,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="SearcherTests.cs" />
+    <Compile Include="HtmlCollectorStrategyBaseTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestData.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TestData.resx</DependentUpon>
-    </Compile>
-    <Compile Include="CraigsListHtmlCollectorStrategyBaseTests.cs" />
+    <Compile Include="SearcherBaseTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -93,19 +89,6 @@
       <Project>{7d1fc9e1-0884-419f-9aeb-6630b3a93842}</Project>
       <Name>Searcher.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Searcher.SystemTests\Searcher.SystemTests.csproj">
-      <Project>{ff18a198-d948-4009-a290-f0d9bb1f5c5a}</Project>
-      <Name>Searcher.SystemTests</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="TestData.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>TestData.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\clCities.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

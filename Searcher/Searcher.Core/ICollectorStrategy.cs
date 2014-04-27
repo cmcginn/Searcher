@@ -16,7 +16,6 @@ namespace Searcher.Core
         Dictionary<string, int> ScoredKeywords { get; set; }
         List<SearchResult> SearchResults { get; }
         List<String> CollectSearchQueries();
-
         SearcherBase Searcher { get; set; }
     
         void CollectSearches();
