@@ -1,41 +1,35 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Searcher.Core;
 
-namespace Searcher.CL
+namespace Searcher.SO
 {
-    public class CraigslistCollectorStrategy:ICollectorStrategy
+    public class StackOverflowCollectorStrategy : ICollectorStrategy
     {
-
         private List<String> _searchUrls;
-
-
         public List<string> SearchBaseUrls { get; set; }
-        public List<string> SearchTerms { get; set; }
-        public Dictionary<string, int> ScoredKeywords { get; set; }
-        public List<SearchResult> SearchResults { get; private set; }
         public List<string> SearchUrls
         {
             get { return _searchUrls ?? (_searchUrls = CollectSearchQueries()); }
         }
-
+        public List<string> SearchTerms { get; set; }
+        public Dictionary<string, int> ScoredKeywords { get; set; }
+        public List<SearchResult> SearchResults { get; private set; }
         public List<string> CollectSearchQueries()
         {
             var result = new List<string>();
-            SearchBaseUrls.ToList().ForEach(x => SearchTerms.ForEach(k => result.Add(String.Format("{0}/search/sof?query+={1}", x, System.Web.HttpUtility.UrlEncode(k)))));
+            SearchBaseUrls.ToList().ForEach(x => SearchTerms.ForEach(k => result.Add(String.Format("{0}/jobs?searchTerm={1}", x, System.Web.HttpUtility.UrlEncode(k)))));
             return result;
         }
+
         public void CollectSearches()
         {
-
-            var searcher = new CraigslistSearcher();
+            var searcher = new StackOverflowSearcher();
             SearchResults = new List<SearchResult>();
-            
+
             SearchUrls.ForEach(x =>
             {
                 var content = HtmlDocumentCollector.GetDocument(x).Result;
@@ -44,15 +38,15 @@ namespace Searcher.CL
                 nodes.ForEach(node =>
                 {
                     var item = searcher.GetSearchResult(node).Result;
-                    if(item != null)
+                    if (item != null)
                         SearchResults.Add(item);
                 });
             });
         }
+
         public void ScoreResults()
         {
-            
-            var items = SearchResults.Where(x => x.Uri != null).GroupBy(x=>x.Uri).Select(x=>x.First()).ToList();
+            var items = SearchResults.Where(x => x.Uri != null).GroupBy(x => x.Uri).Select(x => x.First()).ToList();
             Parallel.ForEach(items, (a) =>
             {
                 var html = HtmlDocumentCollector.GetDocument(a.Uri.ToString()).Result;
@@ -64,7 +58,6 @@ namespace Searcher.CL
                         a.KeywordScore += ScoredKeywords[kw];
                 });
             });
-        
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Searcher.CL.Tests {
+namespace Searcher.SO.Tests {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Searcher.CL.Tests {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Searcher.CL.Tests.TestData", typeof(TestData).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Searcher.SO.Tests.TestData", typeof(TestData).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,7 +63,16 @@ namespace Searcher.CL.Tests {
         /// <summary>
         ///   Looks up a localized string similar to &lt;html&gt;
         ///	&lt;body&gt;
-        ///		&lt;p class=&quot;row&quot; data-pid=&quot;4411995504&quot;&gt; &lt;a href=&quot;http://ocala.craigslist.org/sof/4411995504.html&quot; class=&quot;i&quot;&gt;&lt;/a&gt; &lt;span class=&quot;star v&quot; title=&quot;save this post in your favorites list&quot;&gt;&lt;/span&gt; &lt;span class=&quot;pl&quot;&gt; &lt;span class=&quot;date&quot;&gt;Apr  7&lt;/span&gt;  &lt;a href=&quot;http://ocala.craigslist.org/sof/4411995504.html&quot;&gt; ASP.net C# MVC Web Developer Padawan&lt;/a&gt; &lt;/span&gt; &lt;span class=&quot;l2&quot;&gt;   &lt;span class=&quot;pnr&quot;&gt; &lt;small&gt; (Ocala, FL)&lt;/small&gt; &lt;span class=&quot;px&quot;&gt; &lt;span class=&quot;p&quot;&gt; &lt;span class=&quot;maptag&quot; data-pid=&quot;4411995504&quot;&gt;ma [rest of string was truncated]&quot;;.
+        ///		&lt;div data-jobid=&quot;53709&quot; class=&quot;can-apply&quot;&gt;
+        ///                &lt;p class=&quot;posted top&quot;&gt;
+        ///                    3 weeks ago
+        ///                &lt;/p&gt;
+        ///
+        ///                &lt;a class=&quot;fav-toggle&quot; data-jobid=&quot;53709&quot; href=&quot;/jobs/togglefavorite/53709?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252cASP%252c.NET&quot;&gt;&lt;/a&gt;
+        ///                
+        ///
+        ///                &lt;h3&gt;
+        ///                    &lt;a class=&quot;job-link&quot; href=&quot;/jobs/53709/c-sharp-net-developer-mobitrans?a=13vdNxNDy&amp;amp;searchTerm=C%23%2CASP%2C.NET&quot; title=&quot;C# .NET Devel [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string JobPostingRow {
             get {
@@ -73,12 +82,18 @@ namespace Searcher.CL.Tests {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
-        ///&lt;html class=&quot;nojs&quot;&gt;&lt;head&gt;
-        ///    &lt;title&gt;orlando software/QA/DBA/etc jobs classifieds &amp;quot; C#&amp;quot; - craigslist&lt;/title&gt;
         ///
-        ///    &lt;meta name=&quot;description&quot; content=&quot;orlando software/QA/DBA/etc jobs classifieds &amp;quot; C#&amp;quot; - craigslist&quot;&gt;
-        ///    &lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;http://orlando.craigslist.org/search/sof?query=%20C%23&amp;amp;s=0&amp;amp;format=rss&quot; title=&quot;RSS feed for craigslist | software/QA/DBA/etc jobs &amp;quot; C#&amp;quot; in orlando &quot;&gt;
-        ///    &lt;meta name=&quot;viewport&quot; cont [rest of string was truncated]&quot;;.
+        ///&lt;!--[if lt IE 7]&gt;      &lt;html class=&quot;no-js lt-ie9 lt-ie8 lt-ie7&quot;&gt; &lt;![endif]--&gt;
+        ///
+        ///&lt;!--[if IE 7]&gt;         &lt;html class=&quot;no-js lt-ie9 lt-ie8&quot;&gt; &lt;![endif]--&gt;
+        ///&lt;!--[if IE 8]&gt;         &lt;html class=&quot;no-js lt-ie9&quot;&gt; &lt;![endif]--&gt;
+        ///&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
+        ///&lt;html class=&quot;no-js&quot;&gt;
+        ///&lt;!--&lt;![endif]--&gt;
+        ///
+        ///        &lt;head&gt;
+        ///            &lt;title&gt;“C#,ASP,.NET”  Remote Job Listings - Stack Overflow Careers 2.0 &lt;/title&gt;
+        ///            &lt;link href=&quot;//cdn-careers.sstatic.net/careers/cso/all.min.css?v=410ea9c5855b&quot; rel=&quot;style [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SearchResultsDocument {
             get {
@@ -87,23 +102,7 @@ namespace Searcher.CL.Tests {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://bismarck.craigslist.org
-        ///http://springfieldil.craigslist.org
-        ///http://masoncity.craigslist.org
-        ///http://sd.craigslist.org
-        ///http://sanantonio.craigslist.org
-        ///http://staugustine.craigslist.org
-        ///http://elpaso.craigslist.org
-        ///http://pittsburgh.craigslist.org
-        ///http://cincinnati.craigslist.org
-        ///http://desmoines.craigslist.org
-        ///http://butte.craigslist.org
-        ///http://helena.craigslist.org
-        ///http://onslow.craigslist.org
-        ///http://keys.craigslist.org
-        ///http://missoula.craigslist.org
-        ///http://kalispell.craigslist.org
-        ///ht [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to http://careers.stackoverflow.com.
         /// </summary>
         internal static string SearchUrls {
             get {

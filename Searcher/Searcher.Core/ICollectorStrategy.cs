@@ -9,7 +9,7 @@ namespace Searcher.Core
     public interface ICollectorStrategy
     {
         List<string> SearchBaseUrls { get; set; }
-
+        List<string> SearchUrls { get; }
         List<string> SearchTerms { get; set; }
 
         Dictionary<string, int> ScoredKeywords { get; set; }

@@ -124,9 +124,6 @@
 	&lt;/body&gt;
 &lt;/html&gt;</value>
   </data>
-  <data name="SearchResults" xml:space="preserve">
-    <value />
-  </data>
   <data name="SearchResultsDocument" xml:space="preserve">
     <value>&lt;!DOCTYPE html&gt;
 &lt;html class="nojs"&gt;&lt;head&gt;

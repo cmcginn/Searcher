@@ -1,0 +1,1199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JobPostingRow" xml:space="preserve">
+    <value>&lt;html&gt;
+	&lt;body&gt;
+		&lt;div data-jobid="53709" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53709" href="/jobs/togglefavorite/53709?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252cASP%252c.NET"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53709/c-sharp-net-developer-mobitrans?a=13vdNxNDy&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="C# .NET Developer"&gt;C# .NET Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;10&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Mobitrans
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Dubai, United Arab Emirates 
+                    
+                    (relocation offered)
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;We are looking for skilled and smart .NET developers who would be experienced both in back-end and front…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc"&gt;asp.net-mvc&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sql"&gt;sql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="SearchResultsDocument" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+
+&lt;!--[if lt IE 7]&gt;      &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7"&gt; &lt;![endif]--&gt;
+
+&lt;!--[if IE 7]&gt;         &lt;html class="no-js lt-ie9 lt-ie8"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;         &lt;html class="no-js lt-ie9"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
+&lt;html class="no-js"&gt;
+&lt;!--&lt;![endif]--&gt;
+
+        &lt;head&gt;
+            &lt;title&gt;“C#,ASP,.NET”  Remote Job Listings - Stack Overflow Careers 2.0 &lt;/title&gt;
+            &lt;link href="//cdn-careers.sstatic.net/careers/cso/all.min.css?v=410ea9c5855b" rel="stylesheet" type="text/css" /&gt;
+            
+    &lt;link href="//cdn-careers.sstatic.net/careers/cso/jobs.min.css?v=34644683623b" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="//cdn-careers.sstatic.net/careers/Js/third-party/jquery-ui/1.10.3/jquery-ui.min.css?v=e9cdb2e06975" rel="stylesheet" type="text/css" /&gt;
+    
+    &lt;link href="//cdn-careers.sstatic.net/careers/cso/Employer/CandidateSearch.SearchResults.min.css?v=767db14d1409" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="//cdn-careers.sstatic.net/careers/cso/citypage-sidebar.min.css?v=5fccda5d44b7" rel="stylesheet" type="text/css" /&gt;
+
+            &lt;!--[if lt IE 8]&gt;
+                &lt;style type="text/css"&gt;
+                    input[type=submit], button
+                    {
+                        width:auto !important;
+                        min-width:0;
+                    }
+                &lt;/style&gt;
+            &lt;![endif]--&gt;
+        
+&lt;script type="text/javascript"&gt;
+    var newhref = location.href.replace("#", "");
+    if (newhref != location.href)
+        location.href = newhref;
+&lt;/script&gt;
+
+&lt;link rel="alternate" type="application/rss+xml" title="RSS" /&gt;
+
+
+                &lt;link rel="alternate" hreflang="x-default" href="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true" /&gt;
+                &lt;link rel="alternate" hreflang="de-DE" href="/de/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true" /&gt;
+                &lt;link rel="alternate" hreflang="en-GB" href="/uk/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true" /&gt;
+                &lt;link rel="alternate" hreflang="fr-FR" href="/fr/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true" /&gt;
+            &lt;link rel="canonical" href="http://careers.stackoverflow.com/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true" /&gt;
+                &lt;!-- For iPad with high-resolution Retina display running iOS ≥ 7: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" sizes="152x152" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-152x152-precomposed.png?v=66a597f3e914" /&gt;
+    &lt;!-- For iPad with high-resolution Retina display running iOS ≤ 6: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" sizes="144x144" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-144x144-precomposed.png?v=e8d4c94372e4" /&gt;
+    &lt;!-- For iPhone with high-resolution Retina display running iOS ≥ 7: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" sizes="120x120" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-120x120-precomposed.png?v=5ac17ac89fdc" /&gt;
+    &lt;!-- For iPhone with high-resolution Retina display running iOS ≤ 6: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" sizes="114x114" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-114x114-precomposed.png?v=b4f125e928a9" /&gt;
+    &lt;!-- For the iPad mini and the first- and second-generation iPad on iOS ≥ 7: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" sizes="76x76" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-76x76-precomposed.png?v=2e03358fd783" /&gt;
+    &lt;!-- For the iPad mini and the first- and second-generation iPad on iOS ≤ 6: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" sizes="72x72" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-72x72-precomposed.png?v=748d546b9158" /&gt;
+    &lt;!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: --&gt;
+    &lt;link rel="apple-touch-icon-precomposed" href="//cdn-careers.sstatic.net/careers/Img/logos/apple-touch-icon-precomposed.png?v=793f2b6d5251" /&gt;
+    &lt;link rel="shortcut icon" href="//cdn-careers.sstatic.net/careers/Img/logos/favicon.ico?v=81f2f1086e3f" /&gt;
+    &lt;meta name="msapplication-TileColor" content="#FFFFFF"&gt;
+    &lt;meta name="msapplication-TileImage" content="//cdn-careers.sstatic.net/careers/Img/logos/favicon.png?v=029d50fa781e" /&gt;
+
+
+            
+        &lt;/head&gt;
+    &lt;body class="logged-in"&gt;
+        &lt;noscript&gt;
+            &lt;div id="noscript-padding"&gt;&lt;/div&gt;
+        &lt;/noscript&gt;
+
+        
+            &lt;div id="global"&gt;
+                &lt;div class="container"&gt;
+
+
+
+&lt;ul id="nav-global" class="nav"&gt;
+        &lt;li class="userlink"&gt;
+&lt;a href="/users/info/386512"&gt;Chris McGinn&lt;/a&gt;        &lt;/li&gt;
+        &lt;li class="logout"&gt;
+&lt;a href="/users/logout"&gt;log out&lt;/a&gt;        &lt;/li&gt;
+        &lt;li class="messages"&gt;
+&lt;a class="message-indicator supernovabg pdiff hide" href="/users/386512/messages"&gt;0&lt;/a&gt; &lt;a href="/users/386512/messages"&gt;messages&lt;/a&gt;        &lt;/li&gt;
+&lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="header"&gt;
+                &lt;div class="container"&gt;
+                    &lt;div class="branding"&gt;
+
+                            &lt;a href="/" class="two-oh"&gt;&lt;img alt="Careers 2.0" src="//cdn-careers.sstatic.net/careers/Img/logos/careers-logo.png?v=4daa70d5b71e"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;ul class="nav careers"&gt;
+
+                                &lt;li&gt;&lt;a class="" href="/"&gt;home&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a class="selected" href="/jobs"&gt;search jobs&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a class="" href="/jobs/companies"&gt;companies&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a class="" href="/cv"&gt;my profile&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="role-switch"&gt;&lt;a href="/products" title="post job listings, search candidates, and more"&gt;for employers &amp;#187;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+
+                &lt;br class="clear" /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+                &lt;div class="container"&gt;
+                &lt;div id="content"&gt;
+                    
+
+
+
+
+
+
+
+&lt;div class="main"&gt;
+
+&lt;ul class="tabs"&gt;
+    &lt;li class=selected&gt;&lt;a class="job-link" href="/jobs?searchTerm=C%23%2cASP%2c.NET&amp;amp;allowsremote=true"&gt;39 jobs&lt;/a&gt;&lt;/li&gt;
+    &lt;li &gt;
+        &lt;a href="/jobs/companies?searchTerm=C%23%2cASP%2c.NET&amp;amp;allowsremote=true" class="job-link"&gt;20 company pages&lt;/a&gt;
+            
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="border-bottom"&gt;&lt;/div&gt;
+    &lt;h2 class="index header jobs "&gt;
+        &lt;span id="sortmenu"&gt;
+            sort by: 
+            &lt;select id="url" name="url"&gt;&lt;option value="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true&amp;amp;sort=p"&gt;Date posted&lt;/option&gt;
+&lt;option value="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true&amp;amp;sort=t"&gt;Job title&lt;/option&gt;
+&lt;option value="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true&amp;amp;sort=c"&gt;Company name&lt;/option&gt;
+&lt;option selected="selected" value="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true&amp;amp;sort=s"&gt;Search relevance&lt;/option&gt;
+&lt;/select&gt;
+        &lt;/span&gt;
+    
+
+    &lt;span class="description"&gt;39 remote  jobs for “C#ASP.NET”&lt;/span&gt;
+    &lt;img alt="loading..." class="job-spinner" src="//cdn-careers.sstatic.net/careers/Img/ajax-loader-ball.gif?v=a3243ca6a628"&gt;
+&lt;/h2&gt;
+
+
+
+&lt;div class="list jobs"&gt;
+                &lt;div data-jobid="42430"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="42430" href="/jobs/togglefavorite/42430?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/42430/c-sharp-asp-net-developers-the-nerdery?a=PKmagBRS&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="C# ASP.NET Developers"&gt;C# ASP.NET Developers&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        The Nerdery
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Minneapolis, MN 
+                    (allows remote) 
+                    (relocation offered)
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;The Nerdery is looking for a talented .NET developer skilled in many aspects of web development. Our…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc"&gt;asp.net-mvc&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54796" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    6 days ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54796" href="/jobs/togglefavorite/54796?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54796/experienced-net-developer-join-our-small-team-assess-systems?a=14PpOFc9G&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Experienced .NET Developer – Join our small team and make a big impact!"&gt;Experienced .NET Developer – Join our small team and make a big impact!&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;10&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Assess Systems
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Dallas, TX 
+                    (allows remote) 
+                    (relocation offered)
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;If you are a seasoned .NET Developer who has impeccable drive, strong work ethic, and a passion for…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc"&gt;asp.net-mvc&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/object-oriented-analysis"&gt;object-oriented-analysis&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    6 days ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="55142" class="highlighted can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    2 days ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="55142" href="/jobs/togglefavorite/55142?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/55142/help-save-lives-with-your-code-net-developer-deccan-international?a=15fAvaE8g&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Help save lives with your code! .NET Developer Wanted!"&gt;Help save lives with your code! .NET Developer Wanted!&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Deccan International
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;San Diego, CA 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Deccan International provides decision-support software solutions for both strategic planning&amp;#160;and real…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/oop"&gt;oop&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sql"&gt;sql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 days ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53770" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53770" href="/jobs/togglefavorite/53770?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+&lt;img alt="Previously applied" class="application-indicator" src="//cdn-careers.sstatic.net/careers/Img/icon-mail-sent.png?v=f539185add71"&gt;
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53770/net-software-engineer-car-research-inc?a=13zPM7Kvu&amp;amp;searchTerm=C%23%2CASP%2C.NET" title=".NET Software Engineer"&gt;.NET Software Engineer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        CAR-Research Inc
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Houston, TX 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Work from home for a fun, successful, profitable company!
+We are looking for .NET software engineers to…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/vb.net"&gt;vb.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/vb.net-to-c%23"&gt;vb.net-to-c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc"&gt;asp.net-mvc&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53260" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53260" href="/jobs/togglefavorite/53260?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+&lt;img alt="Previously applied" class="application-indicator" src="//cdn-careers.sstatic.net/careers/Img/icon-mail-sent.png?v=f539185add71"&gt;
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53260/asp-net-developer-contract-position-servinglynk-systems-llc?a=12XgOQLgA&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="ASP.NET Developer - Contract Position"&gt;ASP.NET Developer - Contract Position&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        ServingLynk Systems LLC
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Tampa, FL 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;ServingLynk is seeking a candidate that is interested developing software solutions to support the…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc-4"&gt;asp.net-mvc-4&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/twitter-bootstrap"&gt;twitter-bootstrap&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/azure"&gt;azure&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/tfs"&gt;tfs&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53310" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53310" href="/jobs/togglefavorite/53310?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+&lt;img alt="Previously applied" class="application-indicator" src="//cdn-careers.sstatic.net/careers/Img/icon-mail-sent.png?v=f539185add71"&gt;
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53310/c-sharp-software-engineer-loop-llc?a=1313e70ZO&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="C# Software Engineer"&gt;C# Software Engineer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;12&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Loop, LLC
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Clearwater, FL 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Work from home for a fun, successful, profitable company!
+We are looking for .NET software engineers to…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sql"&gt;sql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/jquery"&gt;jquery&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/tsql"&gt;tsql&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="55205" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    2 days ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="55205" href="/jobs/togglefavorite/55205?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/55205/chief-technologist-sr-technology-project-manager-a-matter-of-fax?a=15klgKqK4&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Chief Technologist.Sr Technology Project Manager. *Superior Compensation*"&gt;Chief Technologist.Sr Technology Project Manager. *Superior Compensation*&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        A Matter Of Fax
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Harrison, NJ 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Serving customers since 1987, A Matter of Fax is an eCommerce retailer with over 450,000 office products…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/html"&gt;html&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/css"&gt;css&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/xml"&gt;xml&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 days ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54013"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54013" href="/jobs/togglefavorite/54013?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54013/remote-or-local-net-developers-develop-k-12-metritech-inc?a=13ScZMiNa&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Remote or Local .NET Developers - Develop K-12 Educational Software"&gt;Remote or Local .NET Developers - Develop K-12 Educational Software&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        MetriTech, Inc.
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Champaign, IL 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;We are MetriTech,Inc., a private education consulting company with a 30-year history of serving school…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/mysql"&gt;mysql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/visual-studio"&gt;visual-studio&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc-4"&gt;asp.net-mvc-4&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/html5"&gt;html5&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53533" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53533" href="/jobs/togglefavorite/53533?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53533/asp-net-c-sharp-mvc-web-developer-padawan-sebae-data-solutions-inc?a=13hUGsFoc&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="ASP.net C# MVC Web Developer Padawan"&gt;ASP.net C# MVC Web Developer Padawan&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;11&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Sebae Data Solutions, Inc.
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Ocala, FL 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;We are looking for a passionate junior web developer who can work on a small team, help us release on an…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc-4"&gt;asp.net-mvc-4&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/jquery"&gt;jquery&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/jquery-ui"&gt;jquery-ui&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="24311"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="24311" href="/jobs/togglefavorite/24311?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/24311/asp-net-mvc-c-sharp-software-developer-top-100-paylocity?a=tEhAJ76U&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="ASP.NET MVC C# Software Developer &amp;#39;Top 100 Digital Companies in Chicago&amp;#39;"&gt;ASP.NET MVC C# Software Developer &amp;#39;Top 100 Digital Companies in Chicago&amp;#39;&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Paylocity
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Dallas, TX; Chicago, IL; Raleigh, NC 
+                    (allows remote) 
+                    (relocation offered)
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;You need to love what you do and be awesome at it!&amp;#160; 
+Hard work and passion is a must!
+Our software…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/mvc"&gt;mvc&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sql"&gt;sql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/ajax"&gt;ajax&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="34229" class="highlighted can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="34229" href="/jobs/togglefavorite/34229?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/34229/full-stack-web-developer-stack-exchange?a=FKfeWpH2&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Full-Stack Web Developer"&gt;Full-Stack Web Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;10&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Stack Exchange
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;New York, NY 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;As a web developer, you&amp;#39;ll be responsible for maintaining, expanding, and scaling our sites, including…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sql-server"&gt;sql-server&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc"&gt;asp.net-mvc&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/jquery"&gt;jquery&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/redis"&gt;redis&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53793" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53793" href="/jobs/togglefavorite/53793?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53793/web-developer-social-analytics-visualization-nuvi?a=13BzBqnYY&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Web Developer, Social Analytics, Visualization, C# Developer"&gt;Web Developer, Social Analytics, Visualization, C# Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        NUVI
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Sandy, UT 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Web Developer - Experienced
+At NUVI, we are constantly working on new and exciting things to make our…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/html5"&gt;html5&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/css"&gt;css&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54983" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    4 days ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54983" href="/jobs/togglefavorite/54983?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54983/web-and-mobile-developer-digitaltree-inc?a=153yv41xK&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Web and Mobile Developer"&gt;Web and Mobile Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;7&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        DigitalTree, Inc
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Dorado, Puerto Rico 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;As a Web and Mobile Developer at DigitalTree, you&amp;#39;ll craft advanced, high-traffic, applications. You…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/ruby-on-rails"&gt;ruby-on-rails&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/html5"&gt;html5&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/css"&gt;css&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/jquery-mobile"&gt;jquery-mobile&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    4 days ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54317" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54317" href="/jobs/togglefavorite/54317?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54317/senior-interactive-developer-unboxed-technology?a=14fcc0NWM&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Senior Interactive Developer"&gt;Senior Interactive Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Unboxed Technology
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Richmond, VA 
+                    (allows remote) 
+                    (relocation offered)
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;What You Want from Us
+You love the fast pace of a start-up with tons of opportunity to think outside…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/angularjs"&gt;angularjs&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/backbone.js"&gt;backbone.js&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-web-api"&gt;asp.net-web-api&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/html5"&gt;html5&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/css3"&gt;css3&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="15018" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="15018" href="/jobs/togglefavorite/15018?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+&lt;img alt="Previously applied" class="application-indicator" src="//cdn-careers.sstatic.net/careers/Img/icon-mail-sent.png?v=f539185add71"&gt;
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/15018/hiring-senior-web-developers-surge?a=ijACCDNm&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Hiring Senior Web Developers"&gt;Hiring Senior Web Developers&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;12&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Surge
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Seattle, WA; Salt Lake City, UT; New Orleans, LA 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;SURGE is looking for smart, self-motivated, experienced, web developers who enjoy the freedom of…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/php"&gt;php&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net-mvc"&gt;asp.net-mvc&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sql"&gt;sql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/mvc"&gt;mvc&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53393" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53393" href="/jobs/togglefavorite/53393?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+&lt;img alt="Previously applied" class="application-indicator" src="//cdn-careers.sstatic.net/careers/Img/icon-mail-sent.png?v=f539185add71"&gt;
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53393/senior-c-sharp-net-software-developer-simpletix-com?a=137klkm9a&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Senior C# .NET Software Developer"&gt;Senior C# .NET Software Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;12&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        SimpleTix.com
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Washington, DC 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;At&amp;#160;SimpleTix&amp;#160;we just released a new version of our platform, version 3. This is on the leading edge…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23-4.0"&gt;c#-4.0&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/signalr"&gt;signalr&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/azure-storage-tables"&gt;azure-storage-tables&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/azureservicebus"&gt;azureservicebus&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="50419" class="highlighted can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="50419" href="/jobs/togglefavorite/50419?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/50419/help-bring-the-benefits-of-automation-to-autometrix-inc?a=Zusnea5y&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Help Bring the Benefits of Automation to Businesses Small and Large"&gt;Help Bring the Benefits of Automation to Businesses Small and Large&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;11&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Autometrix, Inc.
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Grass Valley, CA 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;We are looking for a C# and .NET software engineer to complement and extend an existing team by taking…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/wpf"&gt;wpf&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/cad"&gt;cad&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/vector-graphics"&gt;vector-graphics&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54542" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    1 week ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54542" href="/jobs/togglefavorite/54542?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54542/web-and-ruby-developer-rezzcard?a=14wd1GWJi&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Web and Ruby Developer"&gt;Web and Ruby Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Rezzcard
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Bergen, NJ 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Rezzcard is seeking a talented, creative, and highly experienced, Ruby on Rails developer with strong…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/ruby-on-rails-4"&gt;ruby-on-rails-4&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/jquery"&gt;jquery&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/html5"&gt;html5&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    1 week ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53981" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53981" href="/jobs/togglefavorite/53981?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53981/lead-test-developer-vigilant-software-ltd?a=13PMYusz6&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Lead Test Developer"&gt;Lead Test Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Vigilant Software Ltd.
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Ely, United Kingdom 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;We have an opportunity for an ambitious and intelligent lead developer who specialises in test and QA to…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/.net"&gt;.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/tdd"&gt;tdd&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/automated-tests"&gt;automated-tests&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/build-automation"&gt;build-automation&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    2 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="52420"&gt;
+                &lt;p class="posted top"&gt;
+                    1 week ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="52420" href="/jobs/togglefavorite/52420?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/52420/software-developer-fog-creek-software?a=11VKM2TOo&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Software Developer"&gt;Software Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;12&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Fog Creek Software
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;New York, NY 
+                    (allows remote) 
+                    (relocation offered)
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;As a programmer at Fog Creek Software, you will help design, develop, and implement the code for our…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/coffeescript"&gt;coffeescript&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/node.js"&gt;node.js&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/backbone.js"&gt;backbone.js&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    1 week ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="55001" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    4 days ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="55001" href="/jobs/togglefavorite/55001?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/55001/web-developer-front-end-loop-llc?a=154UT2r2U&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Web Developer - Front End"&gt;Web Developer - Front End&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;12&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Loop, LLC
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Clearwater, FL 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Work from home for a fun, successful, profitable company!
+We are looking for an expert web designer to…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/html"&gt;html&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/css"&gt;css&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/asp.net"&gt;asp.net&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/angularjs"&gt;angularjs&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    4 days ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54941" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    4 days ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54941" href="/jobs/togglefavorite/54941?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54941/senior-native-mobile-developers-surge-llc?a=150nB7Jn2&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Senior Native Mobile Developers"&gt;Senior Native Mobile Developers&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;12&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Surge, LLC
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Bellevue, WA 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;SURGE is looking for smart, self-motivated, experienced, mobile developers who enjoy the freedom of…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/objective-c"&gt;objective-c&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/android"&gt;android&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/php"&gt;php&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/mysql"&gt;mysql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    4 days ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="54618" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    1 week ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="54618" href="/jobs/togglefavorite/54618?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/54618/intermediate-level-web-applications-developer-interactive-ticketing?a=14BXkfzwc&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Intermediate Level Web Applications Developer"&gt;Intermediate Level Web Applications Developer&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Interactive Ticketing
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Portland, OR 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;INTERACTIVE TICKETING is a vibrant company with over 16 years of experience providing online ticketing…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/jquery"&gt;jquery&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/requirejs"&gt;requirejs&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/backbone.js"&gt;backbone.js&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/rest"&gt;rest&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/objective-c"&gt;objective-c&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    1 week ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="53238" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="53238" href="/jobs/togglefavorite/53238?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/53238/nosql-mongo-database-engineer-work-remote-phoenix-data-security?a=12VBGdmZa&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="NoSQL / Mongo Database Engineer - Work Remote"&gt;NoSQL / Mongo Database Engineer - Work Remote&lt;/a&gt;
+                &lt;/h3&gt;
+                
+                    &lt;span class="joeltestscore" title="Joel Test Score"&gt;11&lt;/span&gt;
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Phoenix Data Security
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Tempe, AZ 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Phoenix Data Security is looking for a NoSQL engineer with C# experience to join our team. Our product…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/c%23"&gt;c#&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/mongodb"&gt;mongodb&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/nosql"&gt;nosql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/rest"&gt;rest&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/git"&gt;git&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div data-jobid="26833" class="can-apply"&gt;
+                &lt;p class="posted top"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+
+                &lt;a class="fav-toggle" data-jobid="26833" href="/jobs/togglefavorite/26833?returnUrl=%2Fjobs%3FsearchTerm%3DC%2523%252CASP%252C.NET%26allowsremote%3Dtrue"&gt;&lt;/a&gt;
+                
+
+                &lt;h3&gt;
+                    &lt;a class="job-link" href="/jobs/26833/software-developer-ruby-javascript-springboard-retail?a=wIZ6tbRC&amp;amp;searchTerm=C%23%2CASP%2C.NET" title="Software Developer - Ruby/JavaScript"&gt;Software Developer - Ruby/JavaScript&lt;/a&gt;
+                &lt;/h3&gt;
+                
+
+                &lt;p class="location"&gt;
+                    &lt;span class="employer"&gt;
+                        Springboard Retail
+                    &lt;/span&gt;&amp;nbsp;-&amp;nbsp;Boston, MA 
+                    (allows remote) 
+                    
+                &lt;/p&gt;
+                    
+                &lt;p class="description"&gt;Want to join a self-funded startup aiming to revolutionize retail management and point of sale software?…&lt;/p&gt;
+
+                &lt;p class="tags"&gt;&lt;a class="post-tag job-link" href="/jobs/tag/ruby"&gt;ruby&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/sinatra"&gt;sinatra&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/postgresql"&gt;postgresql&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/javascript"&gt;javascript&lt;/a&gt; &lt;a class="post-tag job-link" href="/jobs/tag/coffeescript"&gt;coffeescript&lt;/a&gt; &lt;/p&gt;
+                &lt;p class="posted bottom"&gt;
+                    3 weeks ago
+                &lt;/p&gt;
+            &lt;/div&gt;
+&lt;img alt="" class="impression" src="//careers.stackoverflow.com/ad/i/PKmagBRS-14PpOFc9G-15fAvaE8g-13zPM7Kvu-12XgOQLgA-1313e70ZO-15klgKqK4-13ScZMiNa-13hUGsFoc-tEhAJ76U-FKfeWpH2-13BzBqnYY-153yv41xK-14fcc0NWM-ijACCDNm-137klkm9a-Zusnea5y-14wd1GWJi-13PMYusz6-11VKM2TOo-154UT2r2U-150nB7Jn2-14BXkfzwc-12VBGdmZa-wIZ6tbRC" style="display:none"&gt;
+&lt;div class="jobsfooter"&gt;
+            &lt;div class="pagination"&gt;
+
+
+&lt;a class="job-link selected" href="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true" title="page 1 of 2"&gt;1&lt;/a&gt;&lt;a class="job-link" href="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true&amp;amp;pg=2" title="page 2 of 2"&gt;2&lt;/a&gt;
+&lt;a class="prev-next job-link" href="/jobs?searchTerm=C%23%2CASP%2C.NET&amp;amp;allowsremote=true&amp;amp;pg=2" title="page 2 of 2"&gt;next&lt;/a&gt;        &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class="sidebar"&gt;
+
+                &lt;h3 class="jobsheader"&gt;
+                    &lt;a class="rss" href="/jobs/feed?searchTerm=C%23%2cASP%2c.NET&amp;amp;allowsremote=True" title="RSS feed for these search criteria"&gt; &lt;/a&gt;
+&lt;a class="subscribe" href="/jobs/subscribe?searchTerm=C%23%2cASP%2c.NET&amp;amp;allowsremote=True" title="Subscribe to these search criteria via email"&gt; &lt;/a&gt;                    refine search                &lt;/h3&gt;
+
+
+&lt;div&gt;
+&lt;form action="/jobs" class="search job-link" method="get"&gt;
+
+&lt;div class="searchfields"&gt;
+    &lt;label for="searchTerm"&gt;what&lt;/label&gt;
+    &lt;input id="searchTerm" maxlength="120" name="searchTerm" placeholder="keyword or company" type="text" value="C#,ASP,.NET" /&gt;&lt;br class="clear" /&gt;
+
+    &lt;div id="where"&gt;
+        &lt;label for="location"&gt;where&lt;/label&gt;
+        &lt;input id="location" maxlength="120" name="location" placeholder="city, country or zip code" type="text" value="" /&gt;&lt;br /&gt;
+
+        &lt;div class="distance disabled"&gt;
+            &lt;label class="range"&gt;distance (use slider)&lt;/label&gt;
+                    &lt;span id="rangelabel"&gt;20 miles&lt;/span&gt;
+            &lt;div id="slider"&gt;&lt;/div&gt;
+
+            &lt;input data-val="true" data-val-number="The field Range must be a number." id="range" name="range" type="hidden" value="20" /&gt;
+            &lt;input data-val="true" data-val-required="The DistanceUnits field is required." id="distanceUnits" name="distanceUnits" type="hidden" value="Miles" /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+        &lt;input type="checkbox" name="allowsremote" id="allowsremote" value="true" checked=checked /&gt;
+        &lt;label for="allowsremote"&gt;Work remotely&lt;/label&gt;&lt;br class="clear" /&gt;
+        &lt;input type="checkbox" name="offersrelocation" id="offersrelocation" value="true"  /&gt;
+        &lt;label for="offersrelocation"&gt;Offers relocation&lt;/label&gt;&lt;br class="clear" /&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    var _RANGE_MAX = 500;
+    var _UNITS_LABEL = 'miles';
+&lt;/script&gt;&lt;a class="job-link" href="/jobs" id="viewall"&gt;view all&lt;/a&gt;&lt;input type="submit" value="search" /&gt;        &lt;br class="clear" /&gt;
+&lt;/form&gt;&lt;/div&gt;
+                &lt;h3&gt;
+                    your recent searches
+                &lt;/h3&gt;
+
+
+&lt;div&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/jobs?searchTerm=C%23%2cASP%2c.NET&amp;amp;allowsremote=true&amp;amp;_=1398594800901"&gt;Jobs matching “C#,ASP,.NET” allowing remote work&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/jobs?searchTerm=C%23%2cASP%2c.NET&amp;amp;location="&gt;Jobs matching “C#,ASP,.NET”&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/jobs?searchTerm=part-time&amp;amp;allowsremote=true&amp;amp;_=1398250269526"&gt;Jobs matching “part-time” allowing remote work&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;br /&gt;
+&lt;/div&gt;                &lt;div id="favjobs-wrapper"&gt;
+                    
+                &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;span class="page-title"&gt;“C#,ASP,.NET”  Remote Job Listings&lt;/span&gt;
+
+
+
+                    &lt;div class="clear"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div id="footer"&gt;
+            &lt;div class="container"&gt;
+
+                &lt;div class="logo"&gt;
+                    &lt;img alt="Careers 2.0" src="//cdn-careers.sstatic.net/careers/Img/logos/careers-logo-gray.png?v=8adf83c16bfe"&gt;
+                &lt;/div&gt;
+
+                    &lt;div id="footer-menu"&gt;
+                        &lt;a href="/about"&gt;about&lt;/a&gt;
+                        &lt;a href="/faq"&gt;faq&lt;/a&gt;
+                        &lt;a href="/support"&gt;support&lt;/a&gt;
+                        &lt;a href="http://blog.careers.stackoverflow.com"&gt;blog&lt;/a&gt;
+                            &lt;a href="http://stackoverflow.com/legal"&gt;legal&lt;/a&gt;
+                            &lt;a href="http://stackexchange.com/legal/privacy-policy"&gt;privacy policy&lt;/a&gt;
+                            &lt;a href="http://engine.adzerk.net/r?e=eyJhdiI6NDE0LCJhdCI6MjAsImNtIjo5NTQsImNoIjoxMTc4LCJjciI6MzM5MSwiZG0iOjQsImZjIjozODA5LCJmbCI6Mjc1MSwibnciOjIyLCJydiI6MCwicHIiOjExNSwic3QiOjAsInVyIjoiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29tL2Fib3V0L2NvbnRhY3QiLCJyZSI6MX0&amp;s=UVPvvSTOyYq-sFzTxnQb7_dg91E"&gt;advertise here&lt;/a&gt;
+                        &lt;strong&gt;&lt;a href="http://twitter.com/StackCareers"&gt;follow us&lt;/a&gt;&lt;/strong&gt;
+                        &lt;strong&gt;&lt;a href="http://meta.stackexchange.com"&gt;feedback always welcome&lt;/a&gt;&lt;/strong&gt;
+
+                        &lt;div id="sites"&gt;
+                            &lt;span style="color: #FE7A15"&gt;■&lt;/span&gt;&amp;nbsp;&lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt;
+                            &lt;span style="color: #E8272C"&gt;■&lt;/span&gt;&amp;nbsp;&lt;a href="http://serverfault.com"&gt;serverfault.com&lt;/a&gt;
+                            &lt;span style="color: #00AFEF"&gt;■&lt;/span&gt;&amp;nbsp;&lt;a href="http://superuser.com"&gt;superuser.com&lt;/a&gt;
+                            &lt;span style="color: #969696"&gt;■&lt;/span&gt;&amp;nbsp;&lt;a href="http://meta.stackexchange.com"&gt;meta&lt;/a&gt;
+                        &lt;/div&gt;
+
+                            &lt;div id="translations"&gt;
+                                    &lt;span style="color:#E8272C"&gt;■&lt;/span&gt;
+&lt;a href="/jobs"&gt;Careers 2.0&lt;/a&gt;                                    &lt;span style="color:#FFCE00"&gt;■&lt;/span&gt;
+&lt;a href="/de/jobs"&gt;Careers Deutsch&lt;/a&gt;                                    &lt;span style="color:#00247d"&gt;■&lt;/span&gt;
+&lt;a href="/uk/jobs"&gt;Careers UK&lt;/a&gt;                                    &lt;span style="color:#EF4135"&gt;■&lt;/span&gt;
+&lt;a href="/fr/jobs"&gt;Careers Fran&amp;#231;ais&lt;/a&gt;                            &lt;/div&gt;
+                        &lt;div id="copyright"&gt;
+                            site design / logo &amp;#169; 2014 stack exchange inc
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;noscript&gt;
+            &lt;div id="noscript-warning"&gt;Stack Overflow requires JavaScript to be enabled&lt;/div&gt;
+        &lt;/noscript&gt;
+
+        
+
+    &lt;script type="text/javascript"&gt;
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5620270-5']);
+        _gaq.push(['_setCustomVar', 1, 'IsAuthenticated', 'False']);
+                        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    &lt;/script&gt;
+
+
+
+        &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+        
+
+&lt;script src="//cdn-careers.sstatic.net/careers/Js/stub.min.js?v=bf8494079868" type="text/javascript"&gt;&lt;/script&gt;
+
+
+
+&lt;script type="text/javascript"&gt;
+    Careers.domain = "careers.stackoverflow.com";
+    Careers.referrer = "careers.stackoverflow.com";
+
+
+
+    document.documentElement.className += " js";
+
+    
+    Careers.init({"site":{"name":"Careers 2.0"},"user":{"isAnonymous":false}});
+    Careers.using.setFileProviding({"bigtext":"//cdn-careers.sstatic.net/careers/Js/third-party/bigtext.min.js?v=8447fcd05f79","candidateManager":"//cdn-careers.sstatic.net/careers/Js/candidate-manager.min.js?v=3d71fdfbff9e","accounts":"//cdn-careers.sstatic.net/careers/Js/accounts.min.js?v=c551214e3c25","candidateSearchFullCv":"//cdn-careers.sstatic.net/careers/Js/candidate-search-full-cv.min.js?v=f6fd6fbf8582","careersAuth":"//cdn-careers.sstatic.net/careers/Js/careersauth.min.js?v=3efb50f3eedb","checkout":"//cdn-careers.sstatic.net/careers/Js/checkout.min.js?v=82f3a8a07c54","checkoutChoose":"//cdn-careers.sstatic.net/careers/Js/checkout-choose.min.js?v=0a7db872538d","companyPages":"//cdn-careers.sstatic.net/careers/Js/company-pages.min.js?v=7a271bec0dae","companyPagesCreate":"//cdn-careers.sstatic.net/careers/Js/company-pages.angular-create.min.js?v=b8da888750d6","companyPagesEdit":"//cdn-careers.sstatic.net/careers/Js/company-pages.angular-edit.min.js?v=a1e7a3f7792b","cv":"//cdn-careers.sstatic.net/careers/Js/cv.min.js?v=fcc950e1f7e3","cvEdit":"//cdn-careers.sstatic.net/careers/Js/cv-edit.min.js?v=7a675c300ff3","cvInvitation":"//cdn-careers.sstatic.net/careers/Js/cv-invitation.min.js?v=6898a7811f41","cvInvitationsAdmin":"//cdn-careers.sstatic.net/careers/Js/cv-invitations-admin.min.js?v=71121501701b","employerLogin":"//cdn-careers.sstatic.net/careers/Js/employer-login.min.js?v=0ac78ec58ed8","import":"//cdn-careers.sstatic.net/careers/Js/import.min.js?v=38ca483a7334","jobs":"//cdn-careers.sstatic.net/careers/Js/jobs.min.js?v=7f49cca7c059","jobsAdmin":"//cdn-careers.sstatic.net/careers/Js/jobs.admin.min.js?v=80f9426ccaa8","jobsPost":"//cdn-careers.sstatic.net/careers/Js/jobs-post.min.js?v=cccb91514d5d","openidJquery":"//cdn-careers.sstatic.net/careers/Js/third-party/openid-jquery.min.js?v=f811f9009dfb","positionHeader":"//cdn-careers.sstatic.net/careers/Js/position-header.min.js?v=8f7486a1e347","privacy":"//cdn-careers.sstatic.net/careers/Js/privacy.min.js?v=0cf3eb1f714d","shared":"//cdn-careers.sstatic.net/careers/Js/shared.min.js?v=e28dca8a811d","stackanswers":"//cdn-careers.sstatic.net/careers/Js/stackanswers.min.js?v=ffb459cebb71","tagEditor":"//cdn-careers.sstatic.net/careers/Js/tageditor.min.js?v=664f091c0154","userMessaging":"//cdn-careers.sstatic.net/careers/Js/user-messaging.min.js?v=0e185dc26b6f"});
+    Careers.using.setFileProviding({localization: "//cdn-careers.sstatic.net/careers/Js/Localization/localization.min.js?v=3945142ff5ae"});
+
+&lt;/script&gt;
+        
+&lt;script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery.form.min.js?v=1908bb339ab9" type="text/javascript"&gt;&lt;/script&gt; 
+&lt;script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"&gt;&lt;/script&gt; 
+&lt;script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery.cookie.min.js?v=5fb07a4bedb2" type="text/javascript"&gt;&lt;/script&gt;
+
+    &lt;script type="text/javascript"&gt;
+        Careers.using(["shared", "jobs"], function () {
+            Careers.jobs.init();
+        });
+    &lt;/script&gt;
+
+
+        
+
+    &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="SearchUrls" xml:space="preserve">
+    <value>http://careers.stackoverflow.com</value>
+  </data>
+</root>
