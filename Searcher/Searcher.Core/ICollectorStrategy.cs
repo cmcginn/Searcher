@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HtmlAgilityPack;
 
 namespace Searcher.Core
 {
@@ -16,6 +17,8 @@ namespace Searcher.Core
         List<SearchResult> SearchResults { get; }
         List<String> CollectSearchQueries();
 
+        SearcherBase Searcher { get; set; }
+    
         void CollectSearches();
 
         void ScoreResults();
