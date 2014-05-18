@@ -32,6 +32,14 @@ namespace Searcher.CL
 
             if (locationElement != null && locationElement.Element("small") != null)
                 result = locationElement.Element("small").InnerText.Trim();
+            else if(locationElement != null)
+            {
+                var su = GetSearchResultUri(item).ToString();
+                var regex = new System.Text.RegularExpressions.Regex("(?:http://)(?<city>[\\w]+)");
+                var matches = regex.Match(su);
+                if (matches.Groups["city"] != null)
+                    result = matches.Groups["city"].Value.Trim();
+            }
             return result;
         }
     

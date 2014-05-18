@@ -37,6 +37,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\ScrapySharp.2.2.63\lib\net40\FSharp.Core.dll</HintPath>
@@ -53,6 +60,7 @@
       <HintPath>..\packages\ScrapySharp.2.2.63\lib\net40\ScrapySharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Runtime.Caching" />
@@ -76,8 +84,12 @@
     <Compile Include="HtmlCollectorStrategyBaseTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearcherBaseTests.cs" />
+    <Compile Include="SearchServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +100,14 @@
     <ProjectReference Include="..\Searcher.Core\Searcher.Core.csproj">
       <Project>{7d1fc9e1-0884-419f-9aeb-6630b3a93842}</Project>
       <Name>Searcher.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Searcher.Data\Searcher.Data.csproj">
+      <Project>{648b4950-2e2e-484e-a085-2dd11fb670b8}</Project>
+      <Name>Searcher.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Searcher.Services\Searcher.Services.csproj">
+      <Project>{7356ED86-ACF5-409B-8385-9235A8B14B74}</Project>
+      <Name>Searcher.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

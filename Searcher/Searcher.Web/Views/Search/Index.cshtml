@@ -1,0 +1,48 @@
+﻿@model dynamic
+@section scripts
+{
+    <script src="~/Scripts/app/search.js"></script>
+}
+
+@{
+    ViewBag.Title = "title";
+    
+}
+<form>
+    <input type="text" class="form-control" data-bind="value:searchName" placeholder="Name" required />
+    <table>
+        <thead>
+            <tr>
+                <th>Search Terms</th>
+                <th>Keyword/Score</th>
+            </tr>
+        </thead>
+
+
+        <tbody data-bind="foreach:searchTerms">
+            <tr>
+                <td><input type="text" required class="form-control" data-bind="value:term" placeholder="Keyword" /></td>
+                <td>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="text" required class="form-control" data-bind="value:score" placeholder="Score" />
+                        </div>
+                        <div class="col-md-4">
+                            <a href="javascript:void(0)" data-bind="click:viewModel.removeTerm">Remove</a>
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>
+                    <button class="btn" data-bind="click:addTerm">Add Term</button>
+                </td>
+                <td><button class="btn btn-primary" data-bind="click:save">Save</button></td>
+            </tr>
+        </tbody>
+
+    </table>
+</form>

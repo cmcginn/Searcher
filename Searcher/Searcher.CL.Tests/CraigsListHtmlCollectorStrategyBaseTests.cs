@@ -44,7 +44,7 @@ namespace Searcher.CL.Tests
             {
                 SearchQueryFormatExpression = "{0}/search/sof?query+={1}",
                 SearchResultKeyAttributeName = "data-pid",
-                SearchResultsCityGroupRegex = "(<?city>[\\w. ]+)",
+                SearchResultsCityGroupRegex = "(?<city>[\\w. ]+)",
                 SearchResultSourceUriLinkSelector = ".pl a",
                 SearchResultsParentNodeXPathSelector = "//p['data-pid']",
                 SearchResultsStateProvinceGroupRegex = "(<?stateprovince>[\\w. ]+)",

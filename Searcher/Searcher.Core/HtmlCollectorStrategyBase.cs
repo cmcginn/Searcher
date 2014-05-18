@@ -10,6 +10,8 @@ namespace Searcher.Core
     public class HtmlCollectorStrategyBase : ICollectorStrategy
     {
         private List<String> _searchUrls;
+        private List<String> _excludeUrls;
+
         public List<string> SearchBaseUrls { get; set; }
         public List<string> SearchUrls
         {
@@ -27,6 +29,13 @@ namespace Searcher.Core
             return result;
         }
         public SearcherBase Searcher { get; set; }
+
+        public List<string> ExcludeUrls
+        {
+            get { return _excludeUrls ?? (_excludeUrls = new List<string>()); }
+            set { _excludeUrls = value; }
+        }
+
         public void CollectSearches()
         {
            
@@ -41,7 +50,7 @@ namespace Searcher.Core
                 nodes.ForEach(node =>
                 {
                     var item = Searcher.GetSearchResult(node).Result;
-                    if (item != null)
+                    if (item != null && item.Uri != null &! ExcludeUrls.Contains(item.Uri.ToString()))
                         SearchResults.Add(item);
                 });
             });

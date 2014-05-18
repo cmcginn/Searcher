@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SearcherModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Search">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="SearchName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="CreatedOnUtc" Type="datetime" Nullable="false" />
+          <Property Name="UpdatedOnUtc" Type="datetime" />
+        </EntityType>
+        <EntityType Name="SearchResultData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="PostId" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="CreatedOnUtc" Type="datetime" Nullable="false" />
+          <Property Name="PostType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PostTitle" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="PostUrl" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="PostDateTime" Type="datetime" Nullable="false" />
+          <Property Name="KeywordScore" Type="int" Nullable="false" />
+          <Property Name="AppliedDateTime" Type="datetime" />
+          <Property Name="Hidden" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SearchTerm">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="SearchId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Term" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Score" Type="int" Nullable="false" />
+          <Property Name="CreatedOnUtc" Type="datetime" Nullable="false" />
+          <Property Name="UpdatedOnUtc" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_SearchTerm_Search">
+          <End Role="Search" Type="Self.Search" Multiplicity="1" />
+          <End Role="SearchTerm" Type="Self.SearchTerm" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Search">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SearchTerm">
+              <PropertyRef Name="SearchId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SearcherModelStoreContainer">
+          <EntitySet Name="Search" EntityType="Self.Search" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SearchResultData" EntityType="Self.SearchResultData" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SearchTerm" EntityType="Self.SearchTerm" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_SearchTerm_Search" Association="Self.FK_SearchTerm_Search">
+            <End Role="Search" EntitySet="Search" />
+            <End Role="SearchTerm" EntitySet="SearchTerm" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SearcherModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="SearchResultData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="PostId" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CreatedOnUtc" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PostType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PostTitle" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PostUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PostDateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="AppliedDateTime" Type="DateTime" Precision="3" />
+          <Property Name="KeywordScore" Type="Int32" Nullable="false" />
+          <Property Name="Hidden" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="SearcherEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SearchResultDatas" EntityType="Self.SearchResultData" />
+          <EntitySet Name="Searches" EntityType="SearcherModel.Search" />
+          <EntitySet Name="SearchTerms" EntityType="SearcherModel.SearchTerm" />
+          <AssociationSet Name="FK_SearchTerm_Search" Association="SearcherModel.FK_SearchTerm_Search">
+            <End Role="Search" EntitySet="Searches" />
+            <End Role="SearchTerm" EntitySet="SearchTerms" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Search">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="SearchName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedOnUtc" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="SearchTerms" Relationship="SearcherModel.FK_SearchTerm_Search" FromRole="Search" ToRole="SearchTerm" />
+        </EntityType>
+        <EntityType Name="SearchTerm">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="SearchId" Type="Guid" Nullable="false" />
+          <Property Name="Term" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Score" Type="Int32" Nullable="false" />
+          <Property Name="CreatedOnUtc" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Search" Relationship="SearcherModel.FK_SearchTerm_Search" FromRole="SearchTerm" ToRole="Search" />
+        </EntityType>
+        <Association Name="FK_SearchTerm_Search">
+          <End Type="SearcherModel.Search" Role="Search" Multiplicity="1" />
+          <End Type="SearcherModel.SearchTerm" Role="SearchTerm" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Search">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SearchTerm">
+              <PropertyRef Name="SearchId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SearcherModelStoreContainer" CdmEntityContainer="SearcherEntities">
+          <EntitySetMapping Name="SearchResultDatas">
+            <EntityTypeMapping TypeName="SearcherModel.SearchResultData">
+              <MappingFragment StoreEntitySet="SearchResultData">
+                <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+                <ScalarProperty Name="KeywordScore" ColumnName="KeywordScore" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PostId" ColumnName="PostId" />
+                <ScalarProperty Name="CreatedOnUtc" ColumnName="CreatedOnUtc" />
+                <ScalarProperty Name="PostType" ColumnName="PostType" />
+                <ScalarProperty Name="PostTitle" ColumnName="PostTitle" />
+                <ScalarProperty Name="PostUrl" ColumnName="PostUrl" />
+                <ScalarProperty Name="PostDateTime" ColumnName="PostDateTime" />
+                <ScalarProperty Name="AppliedDateTime" ColumnName="AppliedDateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Searches">
+            <EntityTypeMapping TypeName="SearcherModel.Search">
+              <MappingFragment StoreEntitySet="Search">
+                <ScalarProperty Name="UpdatedOnUtc" ColumnName="UpdatedOnUtc" />
+                <ScalarProperty Name="CreatedOnUtc" ColumnName="CreatedOnUtc" />
+                <ScalarProperty Name="SearchName" ColumnName="SearchName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SearchTerms">
+            <EntityTypeMapping TypeName="SearcherModel.SearchTerm">
+              <MappingFragment StoreEntitySet="SearchTerm">
+                <ScalarProperty Name="UpdatedOnUtc" ColumnName="UpdatedOnUtc" />
+                <ScalarProperty Name="CreatedOnUtc" ColumnName="CreatedOnUtc" />
+                <ScalarProperty Name="Score" ColumnName="Score" />
+                <ScalarProperty Name="Term" ColumnName="Term" />
+                <ScalarProperty Name="SearchId" ColumnName="SearchId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,44 @@
+﻿@model List<Searcher.Data.SearchResultData>
+
+@{
+    ViewBag.Title = "title";
+
+}
+
+<form method="post" action="/SearchResults/SaveChanges">
+    <table id="searchResults">
+        <thead>
+            <tr>
+                <th class="post-date">Posted On</th>
+                <th class="post-title">Post</th>
+                <th class="post-score">Score</th>
+                <th class="post-applied">Applied</th>
+                <th class="post-hidden">Hidden</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="post-date">
+                    @item.PostDateTime.ToShortDateString()
+                </td>
+                <td class="post-title">
+                    <a href="@item.PostUrl" target="_blank">@item.PostTitle</a>
+                </td>
+                <td class="post-score">
+                    @item.KeywordScore
+                </td>
+                <td class="post-applied">
+                    <input type="checkbox" name="@String.Format("PostId_{0}",item.Id)" />
+                </td>
+                <td class="post-hidden">
+                    <input type="checkbox" name="@String.Format("Hidden_{0}",item.Id)" />
+                </td>
+          
+            </tr>
+        }
+    </table>
+    <div>
+        <input type="submit" value="Save Changes" />
+    </div>
+</form>
